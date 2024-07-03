@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css"/>
+    <link rel="stylesheet" href="mediaquery.css"/>
+    <title>My protfolio</title>
+</head>
+<body>
+      <nav id="desktop-nav">
+        <div class="logo"><a href="#">Tamilvanan</a></div>
+        <div>
+            <ul class="nav-links">
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#experience">EXPERIENCE</a></li>
+              <li><a href="#projects">PROJECT</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="humburger-nav">
+    <div class="logo"><a href="#">Tamilvanan</a></div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>    
+        <div class="menu-links">
+            <li><a href="#about"onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href="#experience"onclick="toggleMenu()">EXPERIENCE</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">PROJECT</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+         </div>
+        </div>
+    </nav> 
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/607694a0d6b0e7732c4531447101f1de.jpg" alt="Tamilvanan" id="tv"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello i'm </p>
+            <h1 class="title">Tamilvanan</h1>
+            <p class="section__text__p2">Java full stack developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Resume_Tamilvanan.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">CONTACT </button>
+            </div>
+            <div class="socials-container">
+                <img src="./Assets/Linkedin.png" alt="my Linkedin profile" onclick="location.href='https://www.linkedin.com/in/tamilvanan028/'" class="icons">
+                <img src="./Assets/github.png" alt="my github profile" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI'" class="icons">
+            </div>   
+        </div>
+    </section>   
+    <section id="about">
+            <p class="section__text__p1">know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./Assets/6ed14aa360e5c898a61db2f3fc1cdc52.jpg" alt="profile pic" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./Assets/reputation.png" alt="EXPERIENCE icon" class="icons">
+                            <h3>EXPERIENCE</h3>
+                            <p>fresher<br>full stack java development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./Assets/graduation.png" alt="EXPRINCE icon" class="icons">
+                            <h3>Education</h3>
+                            <p>B.sc.computer science</p>
+                        </div>
+                    </div>
+                        <div class="text-container"><p>Hey there! I'm a Full Stack Developer ready to bring your ideas to life! With skills in HTML, CSS, Bootstrap, JavaScript, and React, I'll create sleek and user-friendly interfaces that make your website stand out. Behind the scenes, I dive into Java, Spring Boot, JDBC, and MySQL to ensure your applications run smoothly and efficiently. Let's collaborate on building something amazing together!</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow"  onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h3 class="title">Experience</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="expreience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>BOOTSTARP</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>JAVA SCRIPT</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>REACT JS</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="expreience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>JAVA</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>JDBC</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>SPRINGBOOT</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checked.png" alt="checked icon" class="icons">
+                             <div>
+                                <h3>MYSQL</h3>
+                                <p>Experienced</p>
+                             </div>
+                            </article>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow"  onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+    <p class="section__text__p1">Browse My Plan</p>
+    <h1 class="title">PROJECTS</h1>
+    <div class="expernience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+              <div class="article-container">
+                    <img src="./Assets/ZORO.jpg" alt="project 1" class="project-img">
+              </div>
+              <h2 class="expernience-sub-title project-title">zoro e-commerce website </h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                    Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                      <img src="./Assets/ZORO.jpg" alt="project 2" class="project-img">
+                </div>
+                <h2 class="expernience-sub-title project-title">project two</h2>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                      Live Demo
+                  </button>
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                      <img src="./Assets/ZORO.jpg" alt="project 3" class="project-img">
+                </div>
+                <h2 class="expernience-sub-title project-title">projecct three </h2>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                      Github
+                  </button>
+                  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/TAMILVANANSUBURAMANI/reactjproject'">
+                      Live Demo
+                  </button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow"  onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+            <p><a href="mailto:tamilvanansubramaniyan@gmail.com">EMAIL</a></p>
+           </div>
+           <div class="contact-info-container">
+            <img src="./Assets/Linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+        <p><a href="https://www.linkedin.com/in/tamilvanan028/">LINKEDIN</a></p>
+          </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
